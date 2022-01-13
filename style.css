@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-body {
+html, body {
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -40,7 +40,7 @@ button  {
 .logo {
     color: white;
     font-weight: 700;
-    padding-left: 100px;
+    padding-left: 109px;
     
 }
 
@@ -55,32 +55,41 @@ button  {
 .section_1 {
     display: flex;
     background-color: #1f2937;
+    width: 100%;
     color: white;
-    margin: 0;
+    padding: 10px;
     border: 9px solid green;
+    margin: auto;
+    
 }
 
 .sec1_item_left {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: flex-start;
+    flex: 1;
+    
     font-weight: 900;
     font-size: 32px;
-    padding: 100px;
-    padding-right: 250px;
+    margin: auto;
+    padding-left: 100px;
 }
 
 .sub1_button {
-    align-self: center;
+    align-self: flex-start;
+    list-style: none;
 }
 .small_text {
     font-size: 15px;
+    font-weight: 300;
 }
 
 .sec1_item_right {
-    max-width: 40%;
-    padding: 20px;
-    margin-right: 100px;
+    display: flex;
+    justify-content: flex-start;
+    flex: 1;
+    max-width: 400px;
+    margin: auto;
 
 }
 
